@@ -21,7 +21,6 @@ pipeline {
       steps {
         echo 'Test'
         sleep 3
-        exit 1
       }
     }
 
