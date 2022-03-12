@@ -12,7 +12,7 @@ pipeline {
       steps {
         sh 'hostname'
         echo 'Install dependencies'
-        ls -al
+        ls
         sleep 3
       }
     }
