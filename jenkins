@@ -10,7 +10,7 @@ pipeline {
 
     stage('Install') {
       steps {
-        sh 'hostname'
+        sh 'ls'
         echo 'Install dependencies'
         sleep 3
       }
